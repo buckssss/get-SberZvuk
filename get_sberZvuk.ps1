@@ -4,7 +4,7 @@
     [String] $Login,
     [String] $Password
 )
-'test'
+
 if (!(Test-Path $env:USERPROFILE\.SberZvukDL\config.json)) {
     'FIRST START CONFIG'
     $newconf = @{}
